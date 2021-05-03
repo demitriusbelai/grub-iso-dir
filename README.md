@@ -11,3 +11,7 @@ sudo wget https://github.com/demitriusbelai/grub-iso-dir/raw/master/grub-iso-dir
 ## Configuration
 
 Edit ```/etc/grub.d/40isodir.py``` and change the ```ISO_DIR``` variable value to path of the directory containing the ISO images.
+
+## Updating grub.cfg
+
+Run ```grub-mkconfig -o /boot/grub/grub.cfg```
